@@ -9,6 +9,6 @@ app.get('/',(req,res)=>{
     })
 })
 
-app.listen(80, ()=>{
-    console.log('80포트에서 서버 시작')
+app.listen(3000, ()=>{
+    console.log('3000포트에서 서버 시작')
 })
